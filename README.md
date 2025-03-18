@@ -11,8 +11,8 @@ Ketika algoritma ini digunakan untuk mencari jalur dari simpul awal ke simpul tu
 ## Algoritma 
 1. Greedy Best-First Search (GBFS)
    Algoritma ini memilih simpul yang memiliki nilai heuristik terendah tanpa mempertimbangkan biaya jalur yang telah ditempuh.
-   GBFS menggunakan fungsi evaluasi: f(n) = h(n), dimana h(n) adalah nilai heuristik yang memperkirakan jarak ke tujuan.
-   Cara Kerja GBFS:
+   *GBFS menggunakan fungsi evaluasi: f(n) = h(n), dimana h(n) adalah nilai heuristik yang memperkirakan jarak ke tujuan.
+   **Cara Kerja GBFS:
    - Mulai dari simpul awal dan pilih simpul dengan nilai heuristik terendah.
    - Lanjutkan ke simpul berikutnya dengan heuristik terkecil hingga mencapai tujuan.
    - Tidak mempertimbangkan biaya dari simpul sebelumnya (bisa menyebabkan solusi yang kurang optimal).
